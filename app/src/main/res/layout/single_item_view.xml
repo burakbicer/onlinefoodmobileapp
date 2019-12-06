@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Layout for a single list meal -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/colorPastelGreen"
+    android:minHeight="@dimen/list_item_height"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:layout_width="@dimen/list_item_height"
+        android:layout_height="match_parent"
+        android:background="@drawable/my_border_2"
+        android:layout_marginTop="4dp"
+        android:layout_marginBottom="4dp">
+
+        <ImageView
+
+            android:id="@+id/item_image_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="2dp"
+            android:src="@drawable/no_image"
+            android:scaleType="centerCrop" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/text_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPastelGreenLight"
+
+        android:paddingLeft="5dp">
+
+        <TextView
+            android:id="@+id/item_name_view"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:gravity="bottom"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/button_pink"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            tools:text="Ürün" />
+
+        <TextView
+            android:id="@+id/item_description_view"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_below="@id/item_name_view"
+            android:layout_weight="1"
+            android:gravity="top"
+            android:textSize="12sp"
+            android:textAppearance="?android:textAppearanceMedium"
+            android:textColor="@color/button_pink"
+            tools:text="Açıklama" />
+
+        <TextView
+            android:id="@+id/item_price_view"
+            android:layout_width="wrap_content"
+            android:layout_height="43dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:gravity="bottom"
+            android:textColor="@color/button_pink"
+            tools:text="300 TL" />
+
+        <TextView
+            android:id="@+id/invisible_item_id_view"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+        <TextView
+            android:id="@+id/invisible_item_image_url"
+            android:layout_width="0dp"
+            android:layout_height="0dp" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/profile_option"
+        android:title="Profil"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/shop_option"
+        android:title="Yönet"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/shoppingCart"
+        android:title="Sepet"
+        app:showAsAction="always"
+        android:icon="@drawable/baseline_add_shopping_cart_white_48dp" />
+
+    <item
+        android:title="Siparişlerim"
+        android:id="@+id/myOrders"
+        app:showAsAction="never" />
+
+</menu>

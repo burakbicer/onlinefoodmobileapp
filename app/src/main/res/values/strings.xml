@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Online Yemek</string>
+    <string name="meal_image_here">Meal Image Here</string>
+    <string name="preference_file_key">BILGEADAMPREF</string>
+    <string name="orders">Sipariş Durumu</string>
+    <string name="meal_menu">Yemekler</string>
+    <string name="previousorders">Önceki \n Siparişlerim</string>
+    <string name="login">Giriş/Çıkış</string>
+    <string name="campaign">Kampanya</string>
+
+    <string name="btn_foods">Yemekler</string>
+    <string name="btn_previousorders">Önceki \n Siparişler</string>
+    <string name="btn_orders">Sipariş Durumu</string>
+    <string name="btn_login">Giriş/Çıkış</string>
+    <string name="campaign_meal">Kampanya Yemekler</string>
+	
+    <string name="title_activity_welcome_screen">WelcomeScreenActivity</string>
+    <string name="title_activity_login">Sign Up</string>
+    <string name="corbalar">Çorbalar</string>
+    <string name="yemekler">Yemekler</string>
+    <string name="tatlilar">Tatlılar</string>
+    <string name="icecekler">İçecekler</string>
+    <string name="kampanyalar">Kampanyalar</string>
+    <string name="itemName">itemName</string>
+    <string name="itemDescription">itemDescription</string>
+    <string name="itemPrice">itemPrice</string>
+    <string name="itemCategory">itemCategory</string>
+    <string name="imageUrl">imageUrl</string>
+    <string name="itemId">itemId</string>
+
+    <!-- Strings related to login -->
+    <string name="prompt_email">E-posta</string>
+    <string name="description"><u>Açıklama</u>:</string>
+    <string name="prompt_password">Şifre </string>
+    <string name="confirm_password">Şifreyi Onayla</string>
+    <string name="user_name"><u>İsim</u>:</string>
+    <string name="your_profile"><u>Profil Bilgileri</u></string>
+    <string name="user_email"><u>E-posta</u>:</string>
+    <string name="log_in"><u>Oturum Aç</u></string>
+    <string name="sign_up"><u>Kaydol</u></string>
+    <string name="sign_out"><u>Oturumu Kapat</u></string>
+    <string name="user_password"><u>Şifre</u>:</string>
+    <string name="user_number"><u>Telefon</u>:</string>
+    <string name="user_address"><u>Adres</u>:</string>
+    <string name="password_recover"><u>Şifremi unuttum</u>.</string>
+
+</resources>

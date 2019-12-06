@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "383183213690",
+    "firebase_url": "https://online-yemek-android.firebaseio.com",
+    "project_id": "online-yemek-android",
+    "storage_bucket": "online-yemek-android.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:383183213690:android:480a251398a69d569257c3",
+        "android_client_info": {
+          "package_name": "com.bilgeadam.mobilefoodapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "383183213690-dpd86n4p6qfi6vu4ctbma5ak1cmopkhm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuZC9TcDeHUGwDILAbHEsgB8Ic5j52jo0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "383183213690-dpd86n4p6qfi6vu4ctbma5ak1cmopkhm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

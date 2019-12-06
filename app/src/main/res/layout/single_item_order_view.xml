@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/list_item_height"
+    android:background="@color/colorPastelGreen"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:minHeight="@dimen/list_item_height">
+
+    <RelativeLayout
+        android:id="@+id/sTextContainer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPastelGreenLight"
+        android:orientation="vertical"
+        android:paddingLeft="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:paddingBottom="5dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Sipariş No: "
+                    android:gravity="bottom"
+                    android:textSize="16sp"
+                    android:textColor="@color/button_pink"
+                    android:textStyle="bold" />
+
+
+                <TextView
+                    android:id="@+id/soOrderID2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="bottom"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/button_pink"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="Sipariş No" />
+
+                <TextView
+                    android:id="@+id/soOrderID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:visibility="invisible"
+                    android:gravity="bottom"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/button_pink"
+                    android:textSize="16sp"
+                    android:textStyle="bold"
+                    tools:text="" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Müşteri: "
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/button_pink" />
+
+                <TextView
+                    android:id="@+id/soUserID2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/button_pink"
+                    tools:text="Müşteri" />
+
+                <TextView
+                    android:id="@+id/soUserID"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/button_pink"
+                    tools:text="" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:text="Tarih: "
+                    android:gravity="top"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textColor="@color/button_pink" />
+
+                <TextView
+                    android:id="@+id/soDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="top"
+                    android:textSize="12sp"
+                    android:textStyle="italic"
+                    android:textAppearance="?android:textAppearanceMedium"
+                    android:textColor="@color/button_pink"
+                    tools:text="10/12/2019 12:10" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/soTotalPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textSize="14sp"
+            android:text="Toplam Tutar \n 3000TL" />
+    </RelativeLayout>
+
+</LinearLayout>
